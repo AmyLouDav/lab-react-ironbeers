@@ -41,8 +41,103 @@
   font-family: Arial, Helvetica, sans-serif;
   color: black;
   text-decoration: none;
+  font-size: 30px;
+  font-weight:100;
+  display: flex;
 }
 
 .beer-image {
-  width: 120px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+
 }
+
+.home-page-img {
+  width: 100%;
+  height: auto;
+}
+
+.home-page-text {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: left;
+ 
+}
+
+.text-container {
+  padding-left: 20px;
+}
+
+.header {
+  padding: 10px;
+  text-align: center;
+  background: #1D9BF0;
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+  font-size: larger;
+}
+
+.card {
+  display: flex;
+  text-align: left;
+  flex-direction: column;
+  padding-left: 20px;
+  padding-right: 30px;
+}
+
+.beer-image-single {
+  padding-top: 30px;
+  width: 50px;
+
+}
+
+input {
+  width: 80%;
+  padding: 12px 20px;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 1px solid grey;
+}
+
+label {
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.add-beer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+.form-container {
+  width: 100%;
+}
+
+button {
+  width: 80%;
+  padding: 12px 20px;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 1px solid #61dafb;
+  background-color: #61dafb;
+  color: white;
+  font-size: large;
+  font-weight: bold;
+}
+

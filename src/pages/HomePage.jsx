@@ -10,17 +10,26 @@ export default function HomePage() {
     return (
         <div className="home-page">
         
-            <div className="home-link">
-                <img src={beers} alt="Beers" />
-                <Link to="/beers">All Beers</Link>
+            <div>
+                <img className="home-page-img" src={beers} alt="Beers" />
+                <div className="text-container">
+                <Link to="/beers" className="home-link">All Beers</Link>
+                <p className="home-page-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
             </div>
-            <div className="home-link">
-                <img src={randomBeer} alt="Random Beer" />
-                <Link to="/random-beers">Random Beers</Link>
+            <div>
+                <img className="home-page-img" src={randomBeer} alt="Random Beer" />
+                <div className="text-container">
+                <Link to="/random-beer" className="home-link">Random Beers</Link>
+                <p className="home-page-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                </div>
             </div>
-            <div className="home-link">
-                <img src={newBeer} alt="New Beer" />
-                <Link to="/new-beers">New Beers</Link>
+            <div>
+                <img className="home-page-img" src={newBeer} alt="New Beer" />
+                <div className="text-container">
+                <Link to="/new-beer" className="home-link">New Beers</Link>
+                <p className="home-page-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                </div>
             </div>
         </div>
     )

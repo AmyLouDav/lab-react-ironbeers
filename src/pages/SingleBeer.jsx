@@ -20,18 +20,17 @@ export default function SingleBeer(){
     return (
         <div>
             <Header />
-           
-      <h1>Single Beer</h1>
-        <div key={beer._id} className="card">
-          <img className="beer-image" src={beer.image_url} alt="beer" />
-          <h2>{beer.name}</h2>
-          <h3>{beer.tagline}</h3>
-          <p>{beer.first_brewed}</p>
-          <p>{beer.attenuation_level}</p>
-          <p>{beer.description}</p>
-          <p>{beer.contributed_by}</p>
+                <div key={beer._id}>
+                    <img className="beer-image-single" src={beer.image_url} alt="beer" />
+                    <div className="card">
+                        <h2>{beer.name}</h2>
+                        <h3>{beer.tagline}</h3>
+                        <p>{beer.first_brewed}</p>
+                        <p>{beer.attenuation_level}</p>
+                        <p>{beer.description}</p>
+                        <p>{beer.contributed_by}</p>
+                     </div>
+                </div>
         </div>
-      )
-    </div>
     )
 }
